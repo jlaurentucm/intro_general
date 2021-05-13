@@ -1,0 +1,3 @@
+pandoc -t revealjs --css=reveal.js/css/theme/league.css --standalone --variable theme=league --variable transition=convex --template=template-revealjs.html slides.md -o index.html
+
+
